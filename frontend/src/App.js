@@ -1,10 +1,11 @@
 import "./App.css";
-import BarGraph from "./components/BarGraph";
+
+import LinePlot from "./charts/LinePlot";
 
 function App() {
   return (
     <div className="App">
-      <BarGraph />
+      <LinePlot />
     </div>
   );
 }

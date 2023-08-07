@@ -13,7 +13,7 @@ const BarGraph = () => {
   const [chart, setChart] = useState([]);
 
   const api = "coinranking75db724b2e35158d7ec034deacd88280b92c55d6f9d70031";
-  const baseURL = "https://api.coinranking.com/v2/coins/?limit=5";
+  const baseURL = "https://api.coinranking.com/v2/coins/?limit=13";
   var proxyUrl = "https://corsproxy.io/?";
   useEffect(() => {
     const fetchCoins = async () => {
