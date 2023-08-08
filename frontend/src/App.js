@@ -1,13 +1,12 @@
+import FetchedData from "./FetchedData.jsx";
 import "./App.css";
-import BarSample from "./charts/BarSample";
 
 // import LinePlot from "./charts/LinePlot";
 
 function App() {
   return (
     <div className="App">
-      {/*  <LinePlot /> */}
-      <BarSample />
+      <FetchedData />
     </div>
   );
 }
