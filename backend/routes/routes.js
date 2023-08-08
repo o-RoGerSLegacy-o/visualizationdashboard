@@ -2,9 +2,6 @@ const express = require("express");
 const router = express.Router();
 
 //posting data to the data base
-router.post("/post", (req, res) => {
-  res.send("post Api");
-});
 
 //get all the methods
 router.get("/getAll", (req, res) => {
