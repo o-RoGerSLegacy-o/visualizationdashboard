@@ -1,29 +1,24 @@
-.containerCharts {
+.container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-
+  flex-wrap: wrap;
+  margin: 30px;
+  justify-content:center;
+  border:1px solid rgb(0, 0, 0);
   
-  background-color: #f0f0f0;
+  background-color: rgb(216, 216, 216);
+  
+}
 
-  background-color:black;
-  margin: 10px;
-  flex-direction: column;
+.component {
+  flex: 0 0 calc(40% - 20px);
+  border: 1px solid rgb(207, 207, 207);
+    background-color:beige;
+    margin:10px;
 
 }
 
-.chartcard {
-  
-  width: 900px;
-  height: 500px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #ffffff;
- 
-  margin: 10px;
-  transition: 0.8s;
-}
-.chartcard:hover
-{
-  background-color: rgb(236, 230, 222);
+@media (max-width: 768px) {
+  .component {
+    flex: 0 0 calc(100% - 20px);
+  }
 }

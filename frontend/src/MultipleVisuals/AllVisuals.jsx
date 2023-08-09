@@ -25,12 +25,27 @@ const AllVisuals = () => {
   }, [url]);
 
   return (
-    <div className="containerCharts">
-      <div className="chartcard">
+    <div class="container">
+      <div class="component">
         <DoughnutChart data={data} />
       </div>
-      <div className="chartcard">
+      <div class="component">
         <BarChart data={data} />
+      </div>
+      <div class="component">
+        <DoughnutChart data={data} />
+      </div>
+      <div class="component">
+        <BarChart data={data} />
+      </div>
+      <div class="component">
+        <DoughnutChart data={data} />
+      </div>
+      <div class="component">
+        <BarChart data={data} />
+      </div>
+      <div class="component">
+        <DoughnutChart data={data} />
       </div>
     </div>
   );
