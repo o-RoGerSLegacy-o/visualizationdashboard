@@ -1,0 +1,29 @@
+.containerCharts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  background-color: #f0f0f0;
+
+  background-color:black;
+  margin: 10px;
+  flex-direction: column;
+
+}
+
+.chartcard {
+  
+  width: 900px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+ 
+  margin: 10px;
+  transition: 0.8s;
+}
+.chartcard:hover
+{
+  background-color: rgb(236, 230, 222);
+}
